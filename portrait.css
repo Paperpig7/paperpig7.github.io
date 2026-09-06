@@ -1,5 +1,6 @@
 .portrait {
   display: block;
+  justify-self: end;
   width: 280px;
   max-width: 100%;
   height: auto;
@@ -31,7 +32,7 @@
 
 @media (max-width: 650px) {
   .portrait {
-    align-self: center;
+    align-self: flex-end;
     box-shadow: none;
   }
 }

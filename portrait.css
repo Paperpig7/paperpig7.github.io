@@ -9,7 +9,6 @@
   border-radius: 50%;
   border: 1px solid var(--border);
   box-shadow: 0 14px 35px -18px #17336538;
-  transform: translateX(-18px);
 }
 
 .portrait img {

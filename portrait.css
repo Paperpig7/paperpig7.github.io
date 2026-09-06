@@ -1,0 +1,27 @@
+.portrait {
+  display: block;
+  width: 280px;
+  max-width: 100%;
+  height: auto;
+  border: 1px solid var(--border);
+  box-shadow: 0 14px 35px -18px #17336538;
+}
+
+@media (max-width: 900px) {
+  .portrait {
+    width: 220px;
+  }
+}
+
+@media (max-width: 650px) {
+  .portrait {
+    align-self: center;
+    box-shadow: none;
+  }
+}
+
+@media print {
+  .portrait {
+    display: none;
+  }
+}
